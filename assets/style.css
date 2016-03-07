@@ -45,7 +45,7 @@ h3 {
 }
 
 h4 {
-  font: 300 1.5em Roboto, Arial, Helvetica;
+  font: 300 1.75em Roboto, Arial, Helvetica;
   margin-bottom: 1em;
 }
 
@@ -194,6 +194,11 @@ p {
   padding-left: 4em;
   padding-right: 4em;
   padding-bottom: 0;
+  padding-top: 6.75em;
+}
+
+#partners.container,spacer{
+  padding-top: 6.75em;
 }
 
 .food-list {
@@ -246,7 +251,7 @@ p {
 /*foods*/
 
 #foods {
-  padding-top: 6em;
+  padding-top: 7.5em;
 }
 
 #foods figcaption a {
@@ -533,3 +538,22 @@ span.menu-item-name {
      font-size: 1.4em;
 }
 
+.grid figure img {
+    margin: 5px;
+    max-width: 95%;
+}
+figure.effect-oscar:hover figcaption {   
+    opacity: .5;
+}
+#foods h1 {
+	  color: #333;
+      padding-bottom: 10px;    
+      font-family: Josefin Sans, Arial, Helvetica;
+}
+.menu-section{
+  background-color: #F8ECF3;
+  margin: 15px 0;
+}
+.panel-title {
+    font-size: 1.5em;
+}
